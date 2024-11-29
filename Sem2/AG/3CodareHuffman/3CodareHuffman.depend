@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1715704989 source:c:\an1\sem2\ag\3codarehuffman\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+	<unordered_map>
+

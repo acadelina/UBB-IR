@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1716712505 source:c:\an1\sem2\ag\fordfulkerson\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<queue>
+	<climits>
+	<stack>
+

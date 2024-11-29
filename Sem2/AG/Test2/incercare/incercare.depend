@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1716890440 source:c:\an1\sem2\ag\test2\incercare\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<queue>
+	<unordered_map>
+	<stack>
+	<set>
+	<climits>
+
