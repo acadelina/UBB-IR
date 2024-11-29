@@ -1,0 +1,2 @@
+Nume1,Prenume1,200,pivot
+Nume2,Prenume2,190,extrema

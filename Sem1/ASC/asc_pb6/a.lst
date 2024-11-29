@@ -1,0 +1,107 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit,printf    
+     8                                  extern suma           ; tell nasm that exit exists even if we won't be defining it
+     9                                  import exit msvcrt.dll
+    10                                  import printf msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    11                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    12                                  
+    13                                  ; our data is declared here (the variables needed by our program)
+    14                                  segment data use32 class=data
+    15 00000000 FFFFFFFF40E20100FF-         sir dd -1,123456,0xabcdeff,0xabcdeff,0xcbcdeff,0xdbcdeff,0111010101b
+    15 00000009 DEBC0AFFDEBC0AFFDE-
+    15 00000012 BC0CFFDEBC0DD50100-
+    15 0000001B 00                 
+    16                                      len1 equ ($-sir)/4
+    17 0000001C 00<rept>                    rez times len1 db 0
+    18 00000023 307825782C2000              msj db "0x%x, ",0
+    19 0000002A 25752000                    af db "%u ",0
+    20 0000002E 00000000                    final dd 0
+    21 00000032 2800                        par1 db "(",0
+    22 00000034 2900                        par2 db ")",0
+    23                                  
+    24                                  ; our code starts here
+    25                                  segment code use32 class=code
+    26                                      start:
+    27 00000000 6A07                            push dword len1
+    28 00000002 68[1C000000]                    push dword rez
+    29 00000007 68[00000000]                    push dword sir
+    30 0000000C E8(00000000)                    call suma
+    31                                          
+    32 00000011 B907000000                      mov ecx,len1
+    33 00000016 BE[1C000000]                    mov esi,rez
+    34                                          repeta:
+    35 0000001B 51                                  push ecx
+    36 0000001C B800000000                          mov eax,0
+    37 00000021 AC                                  lodsb
+    38 00000022 50                                  push eax
+    39 00000023 68[2A000000]                        push dword af
+    40 00000028 FF15[00000000]                      call [printf]
+    41 0000002E 83C408                              add esp,4*2
+    42 00000031 59                                  pop ecx
+    43 00000032 49                                  dec ecx
+    44 00000033 75E6                                jnz repeta
+    45                                          
+    46 00000035 BE[1C000000]                   mov esi,rez
+    47 0000003A BF[1C000000]                   mov edi,rez
+    48 0000003F 893D[2E000000]                 mov dword[final],edi
+    49 00000045 8305[2E000000]07               add dword[final],len1
+    50 0000004C 832D[2E000000]01               sub dword[final],1
+    51                                         repeta1:
+    52 00000053 3B3D[2E000000]                      cmp edi,[final]
+    53 00000059 741D                                je gata
+    54 0000005B 8A07                                mov al,[edi]
+    55 0000005D 8A5F01                              mov bl,[edi+1]
+    56 00000060 38D8                                cmp al,bl
+    57 00000062 7303                                jnb not_cresc
+    58 00000064 47                                  inc edi
+    59 00000065 EBEC                                jmp repeta1
+    60                                              not_cresc:
+    61 00000067 39F7                                    cmp edi,esi
+    62 00000069 7511                                    jne afisare
+    63 0000006B 83C701                                  add edi,1
+    64 0000006E 89FE                                    mov esi,edi
+    65 00000070 3B3D[2E000000]                          cmp edi,[final]
+    66 00000076 7CDB                                    jl repeta1
+    67                                              gata:
+    68 00000078 39FE                                    cmp esi,edi
+    69 0000007A 744E                                    je fina
+    70                                              afisare:
+    71 0000007C 68[32000000]                            push dword par1
+    72 00000081 FF15[00000000]                          call [printf]
+    73 00000087 83C404                                  add esp,4
+    74 0000008A 56                                      push esi
+    75 0000008B 57                                      push edi
+    76 0000008C 89F1                                    mov ecx,esi
+    77 0000008E 81E9[1C000000]                          sub ecx,rez
+    78                                                  
+    79                                                  aff:
+    80                                                  
+    81 00000094 51                                      push ecx
+    82 00000095 FF348D[00000000]                        push dword[sir+4*ecx]
+    83 0000009C 68[23000000]                            push dword msj
+    84 000000A1 FF15[00000000]                          call[printf]
+    85 000000A7 83C408                                  add esp,8
+    86 000000AA 59                                      pop ecx
+    87 000000AB 41                                      inc ecx
+    88 000000AC 46                                      inc esi
+    89 000000AD 39FE                                    cmp esi,edi
+    90 000000AF 7EE3                                    jle aff
+    91 000000B1 68[34000000]                            push dword par2
+    92 000000B6 FF15[00000000]                          call [printf]
+    93 000000BC 83C404                                  add esp,4
+    94 000000BF 5F                                      pop edi
+    95 000000C0 89FE                                    mov esi,edi
+    96 000000C2 3B3D[2E000000]                          cmp edi,[final]
+    97 000000C8 7C89                                    jl repeta1
+    98                                              
+    99                                           fina:   
+   100                                              
+   101                                              
+   102                                          
+   103 000000CA 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   104 000000CC FF15[00000000]                  call    [exit]       ; call exit to terminate the program
