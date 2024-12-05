@@ -1,0 +1,248 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\An1\\Sem2\\OOP\\TractoareSim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\GUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\GUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\GUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\GUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\QT\\6.7.0\\MSVC2019_64\\INCLUDE\\QTCORE\\QOBJECT.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Validator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\Validator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Tractoare.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\Tractoare.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Service.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\Service.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\Repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Repo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\Repo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Service.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\Service.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Tractoare.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\Tractoare.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Tractoare.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\Tractoare.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\TractoareSim.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AA3AF9E5-AB47-48D8-ABBA-E840D3A41E79}|TractoareSim\\TractoareSim.vcxproj|solutionrelative:TractoareSim\\TractoareSim.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "qobject.h",
+              "DocumentMoniker": "C:\\qt\\6.7.0\\msvc2019_64\\include\\QtCore\\qobject.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\qt\\6.7.0\\msvc2019_64\\include\\QtCore\\qobject.h",
+              "ToolTip": "C:\\qt\\6.7.0\\msvc2019_64\\include\\QtCore\\qobject.h",
+              "RelativeToolTip": "..\\..\\..\\..\\qt\\6.7.0\\msvc2019_64\\include\\QtCore\\qobject.h",
+              "ViewState": "AQIAAP4AAAAAAAAAAAArwAkBAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-18T10:21:17.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tractoare.txt",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Tractoare.txt",
+              "RelativeDocumentMoniker": "TractoareSim\\Tractoare.txt",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Tractoare.txt",
+              "RelativeToolTip": "TractoareSim\\Tractoare.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-18T10:17:26.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\main.cpp",
+              "RelativeDocumentMoniker": "TractoareSim\\main.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\main.cpp",
+              "RelativeToolTip": "TractoareSim\\main.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-18T10:15:16.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GUI.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\GUI.cpp",
+              "RelativeDocumentMoniker": "TractoareSim\\GUI.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\GUI.cpp",
+              "RelativeToolTip": "TractoareSim\\GUI.cpp",
+              "ViewState": "AQIAACsAAAAAAAAAAAArwD0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-18T09:45:02.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GUI.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\GUI.h",
+              "RelativeDocumentMoniker": "TractoareSim\\GUI.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\GUI.h",
+              "RelativeToolTip": "TractoareSim\\GUI.h",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-18T09:35:37.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Service.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Service.cpp",
+              "RelativeDocumentMoniker": "TractoareSim\\Service.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Service.cpp",
+              "RelativeToolTip": "TractoareSim\\Service.cpp",
+              "ViewState": "AQIAACUAAAAAAAAAAAAiwC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-18T08:54:20.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Repo.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Repo.h",
+              "RelativeDocumentMoniker": "TractoareSim\\Repo.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Repo.h",
+              "RelativeToolTip": "TractoareSim\\Repo.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-18T08:32:14.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repo.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Repo.cpp",
+              "RelativeDocumentMoniker": "TractoareSim\\Repo.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Repo.cpp",
+              "RelativeToolTip": "TractoareSim\\Repo.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-18T08:38:09.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Service.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Service.h",
+              "RelativeDocumentMoniker": "TractoareSim\\Service.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Service.h",
+              "RelativeToolTip": "TractoareSim\\Service.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-18T08:54:12.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Validator.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Validator.h",
+              "RelativeDocumentMoniker": "TractoareSim\\Validator.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Validator.h",
+              "RelativeToolTip": "TractoareSim\\Validator.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-18T08:54:32.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Tractoare.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Tractoare.cpp",
+              "RelativeDocumentMoniker": "TractoareSim\\Tractoare.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Tractoare.cpp",
+              "RelativeToolTip": "TractoareSim\\Tractoare.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-18T08:29:37.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tractoare.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Tractoare.h",
+              "RelativeDocumentMoniker": "TractoareSim\\Tractoare.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\Tractoare.h",
+              "RelativeToolTip": "TractoareSim\\Tractoare.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-18T08:23:58.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TractoareSim.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\TractoareSim.cpp",
+              "RelativeDocumentMoniker": "TractoareSim\\TractoareSim.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TractoareSim\\TractoareSim\\TractoareSim.cpp",
+              "RelativeToolTip": "TractoareSim\\TractoareSim.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-18T08:23:20.907Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

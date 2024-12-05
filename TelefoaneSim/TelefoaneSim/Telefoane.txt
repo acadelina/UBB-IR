@@ -1,0 +1,3 @@
+Samsung;Galaxy;alb;2019;970
+Huawei;P;alb;2018;970
+Huawei;P;albastru;2019;2100

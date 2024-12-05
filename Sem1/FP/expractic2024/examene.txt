@@ -1,0 +1,8 @@
+30.01,12:00,mat1,normal
+01.02,14:30,mat2,normal
+03.02,15:00,mat3,restanta
+30.01,17:00,mat2,restanta
+05.02,10:00,mat5,normal
+30.01,17:00,mat9,normal
+01.01,10:00,mat10,normal
+31.01,12:00,mat11,restanta

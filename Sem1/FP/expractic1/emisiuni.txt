@@ -1,0 +1,4 @@
+emisiune1,tip1,1,decriere1
+emisiune2,tip2,4,decriere4
+emisiune5,tip5,2,desc
+emisiune6,tip6,2,decriere0

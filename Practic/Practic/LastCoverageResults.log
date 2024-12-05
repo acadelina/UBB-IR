@@ -1,0 +1,21 @@
+[2024-06-16 12:55:35] [info] Start Program:
+Path:"C:\An1\Sem2\OOP\Practic\x64\Debug\Practic.exe"
+Arguments:
+Working directory: "C:\An1\Sem2\OOP\Practic\Practic\"
+Modules: Selected: C:\An1\Sem2\OOP\Practic\x64\Debug\Practic.exe Excluded: 
+Sources: Selected: C:\An1\Sem2\OOP\Practic\Practic Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\adeli\AppData\Local\Temp\k0juvrlf.brn 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-06-16 12:55:35] [info] Module: C:\An1\Sem2\OOP\Practic\x64\Debug\Practic.exe is selected because it matches selected pattern: C:\An1\Sem2\OOP\Practic\x64\Debug\Practic.exe
+[2024-06-16 12:55:44] [info] ----------------------------------------------------
+[2024-06-16 12:55:44] [info] Coverage binary generated in file: C:\Users\adeli\AppData\Local\Temp\k0juvrlf.brn
+[2024-06-16 12:55:44] [info] ----------------------------------------------------

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1715758611 source:c:\an1\sem2\ag\2decodareprufer\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

@@ -1,0 +1,268 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\GUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\GUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Service.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\Service.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\GUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\GUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Domain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\Domain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Telefoane.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\Telefoane.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\TelefoaneSim.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\TelefoaneSim.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adeli\\AppData\\Local\\Temp\\f231f151-a6b5-449a-9c48-1e074055c091_simulare.zip.091\\simulare\\simulare\\gui.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\TelefoaneSim.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\TelefoaneSim.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Service.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\Service.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\Repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Domain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\Domain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Repo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E308027-B0A3-4E61-AEBE-A02F285A0E28}|TelefoaneSim\\TelefoaneSim.vcxproj|solutionrelative:TelefoaneSim\\Repo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\qt\\6.7.0\\msvc2019_64\\include\\QtCore\\qvariant.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\algorithm||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TelefoaneSim.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\TelefoaneSim.h",
+              "RelativeDocumentMoniker": "TelefoaneSim\\TelefoaneSim.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\TelefoaneSim.h",
+              "RelativeToolTip": "TelefoaneSim\\TelefoaneSim.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-19T10:02:45.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Telefoane.txt",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Telefoane.txt",
+              "RelativeDocumentMoniker": "TelefoaneSim\\Telefoane.txt",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Telefoane.txt",
+              "RelativeToolTip": "TelefoaneSim\\Telefoane.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-19T10:00:00.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GUI.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\GUI.h",
+              "RelativeDocumentMoniker": "TelefoaneSim\\GUI.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\GUI.h",
+              "RelativeToolTip": "TelefoaneSim\\GUI.h",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAwwFkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-19T08:55:08.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "qvariant.h",
+              "DocumentMoniker": "C:\\qt\\6.7.0\\msvc2019_64\\include\\QtCore\\qvariant.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\qt\\6.7.0\\msvc2019_64\\include\\QtCore\\qvariant.h",
+              "ToolTip": "C:\\qt\\6.7.0\\msvc2019_64\\include\\QtCore\\qvariant.h",
+              "RelativeToolTip": "..\\..\\..\\..\\qt\\6.7.0\\msvc2019_64\\include\\QtCore\\qvariant.h",
+              "ViewState": "AQIAAAoDAAAAAAAAAADwvxgDAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-19T10:15:19.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Service.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Service.cpp",
+              "RelativeDocumentMoniker": "TelefoaneSim\\Service.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Service.cpp",
+              "RelativeToolTip": "TelefoaneSim\\Service.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-19T08:46:22.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\main.cpp",
+              "RelativeDocumentMoniker": "TelefoaneSim\\main.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\main.cpp",
+              "RelativeToolTip": "TelefoaneSim\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-19T09:58:36.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "gui.h",
+              "DocumentMoniker": "C:\\Users\\adeli\\AppData\\Local\\Temp\\f231f151-a6b5-449a-9c48-1e074055c091_simulare.zip.091\\simulare\\simulare\\gui.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\adeli\\AppData\\Local\\Temp\\f231f151-a6b5-449a-9c48-1e074055c091_simulare.zip.091\\simulare\\simulare\\gui.h",
+              "ToolTip": "C:\\Users\\adeli\\AppData\\Local\\Temp\\f231f151-a6b5-449a-9c48-1e074055c091_simulare.zip.091\\simulare\\simulare\\gui.h [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\adeli\\AppData\\Local\\Temp\\f231f151-a6b5-449a-9c48-1e074055c091_simulare.zip.091\\simulare\\simulare\\gui.h [Read Only]",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-19T09:10:43.969Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GUI.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\GUI.cpp",
+              "RelativeDocumentMoniker": "TelefoaneSim\\GUI.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\GUI.cpp",
+              "RelativeToolTip": "TelefoaneSim\\GUI.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-19T08:55:16.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Domain.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Domain.h",
+              "RelativeDocumentMoniker": "TelefoaneSim\\Domain.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Domain.h",
+              "RelativeToolTip": "TelefoaneSim\\Domain.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-19T07:57:40.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "algorithm",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\algorithm",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\algorithm",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\algorithm",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\algorithm",
+              "ViewState": "AQIAAIoFAAAAAAAAAADwv5gFAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-19T10:02:11.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TelefoaneSim.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\TelefoaneSim.cpp",
+              "RelativeDocumentMoniker": "TelefoaneSim\\TelefoaneSim.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\TelefoaneSim.cpp",
+              "RelativeToolTip": "TelefoaneSim\\TelefoaneSim.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-19T07:57:17.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Service.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Service.h",
+              "RelativeDocumentMoniker": "TelefoaneSim\\Service.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Service.h",
+              "RelativeToolTip": "TelefoaneSim\\Service.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-19T08:46:14.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Repo.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Repo.cpp",
+              "RelativeDocumentMoniker": "TelefoaneSim\\Repo.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Repo.cpp",
+              "RelativeToolTip": "TelefoaneSim\\Repo.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-19T08:26:01.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Repo.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Repo.h",
+              "RelativeDocumentMoniker": "TelefoaneSim\\Repo.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Repo.h",
+              "RelativeToolTip": "TelefoaneSim\\Repo.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-19T08:25:52.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Domain.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Domain.cpp",
+              "RelativeDocumentMoniker": "TelefoaneSim\\Domain.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\TelefoaneSim\\TelefoaneSim\\Domain.cpp",
+              "RelativeToolTip": "TelefoaneSim\\Domain.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-19T07:57:52.368Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

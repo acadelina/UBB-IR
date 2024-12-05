@@ -1,0 +1,237 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\An1\\Sem2\\OOP\\practicinc9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\Repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Repo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\Repo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\GUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\GUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\task.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\task.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Serv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\Serv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Serv.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\Serv.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Observer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\Observer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\GUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\GUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\MyModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\MyModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Domain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\Domain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Domain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\Domain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\practicinc9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27CADA3B-F95A-40C4-B6D1-8732F17B50D3}|practicinc9\\practicinc9.vcxproj|solutionrelative:practicinc9\\practicinc9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "task.txt",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\task.txt",
+              "RelativeDocumentMoniker": "practicinc9\\task.txt",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\task.txt",
+              "RelativeToolTip": "practicinc9\\task.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-15T16:40:56.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\main.cpp",
+              "RelativeDocumentMoniker": "practicinc9\\main.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\main.cpp",
+              "RelativeToolTip": "practicinc9\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-15T16:39:17.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GUI.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\GUI.cpp",
+              "RelativeDocumentMoniker": "practicinc9\\GUI.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\GUI.cpp",
+              "RelativeToolTip": "practicinc9\\GUI.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-15T16:15:14.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GUI.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\GUI.h",
+              "RelativeDocumentMoniker": "practicinc9\\GUI.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\GUI.h",
+              "RelativeToolTip": "practicinc9\\GUI.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-15T15:57:50.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Observer.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Observer.h",
+              "RelativeDocumentMoniker": "practicinc9\\Observer.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Observer.h",
+              "RelativeToolTip": "practicinc9\\Observer.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-15T15:53:41.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Serv.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Serv.cpp",
+              "RelativeDocumentMoniker": "practicinc9\\Serv.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Serv.cpp",
+              "RelativeToolTip": "practicinc9\\Serv.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-15T15:34:20.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Serv.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Serv.h",
+              "RelativeDocumentMoniker": "practicinc9\\Serv.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Serv.h",
+              "RelativeToolTip": "practicinc9\\Serv.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-15T15:30:52.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyModel.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\MyModel.h",
+              "RelativeDocumentMoniker": "practicinc9\\MyModel.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\MyModel.h",
+              "RelativeToolTip": "practicinc9\\MyModel.h",
+              "ViewState": "AQIAACUAAAAAAAAAAAAwwDQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-15T15:40:21.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repo.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Repo.cpp",
+              "RelativeDocumentMoniker": "practicinc9\\Repo.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Repo.cpp",
+              "RelativeToolTip": "practicinc9\\Repo.cpp",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-15T15:19:48.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repo.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Repo.h",
+              "RelativeDocumentMoniker": "practicinc9\\Repo.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Repo.h",
+              "RelativeToolTip": "practicinc9\\Repo.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-15T15:16:46.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Domain.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Domain.cpp",
+              "RelativeDocumentMoniker": "practicinc9\\Domain.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Domain.cpp",
+              "RelativeToolTip": "practicinc9\\Domain.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-15T15:10:02.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Domain.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Domain.h",
+              "RelativeDocumentMoniker": "practicinc9\\Domain.h",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\Domain.h",
+              "RelativeToolTip": "practicinc9\\Domain.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAwwCIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-15T15:09:52.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "practicinc9.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\practicinc9.cpp",
+              "RelativeDocumentMoniker": "practicinc9\\practicinc9.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\OOP\\practicinc9\\practicinc9\\practicinc9.cpp",
+              "RelativeToolTip": "practicinc9\\practicinc9.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-15T15:07:52.005Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

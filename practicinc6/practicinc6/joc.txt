@@ -1,0 +1,5 @@
+1,3,XXXOOO---,O,In derulare
+2,3,X-XXX-XOO,X,Terminat
+3,3,X-OOO-XOO,X,In derulare
+4,5,X-O--OXOX--XOO-OOOOOXXXXX,X,Terminat
+5,3,XXXOOO---,O,In derulare

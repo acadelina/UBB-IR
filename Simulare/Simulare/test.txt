@@ -1,0 +1,5 @@
+1,r1,s,10,False
+2,r2,s,13,False
+3,r4,m,15,True
+4,r6,l,89,True
+5,r7,l,16,False

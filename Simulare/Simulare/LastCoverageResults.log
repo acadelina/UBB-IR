@@ -1,0 +1,21 @@
+[2024-05-21 09:41:40] [info] Start Program:
+Path:"C:\An1\Sem2\OOP\Simulare\x64\Debug\Simulare.exe"
+Arguments:
+Working directory: "C:\An1\Sem2\OOP\Simulare\Simulare\"
+Modules: Selected: C:\An1\Sem2\OOP\Simulare\x64\Debug\Simulare.exe Excluded: 
+Sources: Selected: C:\An1\Sem2\OOP\Simulare\Simulare Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\adeli\AppData\Local\Temp\jo1gkybh.swn 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-05-21 09:41:40] [info] Module: C:\An1\Sem2\OOP\Simulare\x64\Debug\Simulare.exe is selected because it matches selected pattern: C:\An1\Sem2\OOP\Simulare\x64\Debug\Simulare.exe
+[2024-05-21 09:41:40] [info] ----------------------------------------------------
+[2024-05-21 09:41:40] [info] Coverage binary generated in file: C:\Users\adeli\AppData\Local\Temp\jo1gkybh.swn
+[2024-05-21 09:41:40] [info] ----------------------------------------------------

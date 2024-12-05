@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1712392853 source:c:\an1\sem2\ag\dijkstra\untitled2.c
+
+1712416898 source:c:\an1\sem2\ag\dijkstra\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

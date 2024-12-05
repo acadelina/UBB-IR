@@ -1,0 +1,3 @@
+1;apa;bauturi;12;dorna
+3;unt;mancare;11;scss
+4;branza;mancare;8;lacta

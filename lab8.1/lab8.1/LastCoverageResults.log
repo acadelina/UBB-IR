@@ -1,0 +1,21 @@
+[2024-04-30 09:04:54] [info] Start Program:
+Path:"C:\An1\Sem2\OOP\lab8.1\x64\Debug\lab8.1.exe"
+Arguments:
+Working directory: "C:\An1\Sem2\OOP\lab8.1\lab8.1\"
+Modules: Selected: C:\An1\Sem2\OOP\lab8.1\x64\Debug\lab8.1.exe Excluded: 
+Sources: Selected: C:\An1\Sem2\OOP\lab8.1\lab8.1 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\adeli\AppData\Local\Temp\o30nsl1e.zy3 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-04-30 09:04:54] [info] Module: C:\An1\Sem2\OOP\lab8.1\x64\Debug\lab8.1.exe is selected because it matches selected pattern: C:\An1\Sem2\OOP\lab8.1\x64\Debug\lab8.1.exe
+[2024-04-30 09:04:54] [info] ----------------------------------------------------
+[2024-04-30 09:04:54] [info] Coverage binary generated in file: C:\Users\adeli\AppData\Local\Temp\o30nsl1e.zy3
+[2024-04-30 09:04:54] [info] ----------------------------------------------------

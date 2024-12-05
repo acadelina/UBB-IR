@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1712390745 source:c:\an1\sem2\ag\bellmanford\main.cpp
+	<iostream>
+	<fstream>
+

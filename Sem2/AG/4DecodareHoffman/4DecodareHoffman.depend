@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1715706793 source:c:\an1\sem2\ag\4decodarehoffman\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<map>
+	<queue>
+	<algorithm>
+

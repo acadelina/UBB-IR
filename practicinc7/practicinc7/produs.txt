@@ -1,0 +1,12 @@
+1,nume1,tip1,10.3
+2,nume2,tip3,15.3
+3,nume3,tip1,17.3
+4,nume4,tip2,20.3
+5,nume5,tip1,70.3
+6,nume6,tip5,33.3
+7,nume7,tip6,55.3
+8,nume8,tip3,16.3
+44,n,t,4
+33,x,z,4
+38,e,r,4.5
+444,n,nn,4
