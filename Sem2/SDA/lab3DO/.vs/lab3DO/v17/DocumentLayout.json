@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\An1\\Sem2\\SDA\\lab3DO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\DO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|solutionrelative:lab3DO\\DO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\DO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|solutionrelative:lab3DO\\DO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\Iterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|solutionrelative:lab3DO\\Iterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestScurt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|solutionrelative:lab3DO\\TestScurt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|solutionrelative:lab3DO\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestExtins.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|solutionrelative:lab3DO\\TestExtins.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\Iterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|solutionrelative:lab3DO\\Iterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestScurt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|solutionrelative:lab3DO\\TestScurt.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestExtins.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D514630-40A4-466D-8F9E-B7AF9F97322C}|lab3DO\\lab3DO.vcxproj|solutionrelative:lab3DO\\TestExtins.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestExtins.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestExtins.cpp",
+              "RelativeDocumentMoniker": "lab3DO\\TestExtins.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestExtins.cpp",
+              "RelativeToolTip": "lab3DO\\TestExtins.cpp",
+              "ViewState": "AQIAAPwAAAAAAAAAAAAcwBkBAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T18:48:15.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestExtins.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestExtins.h",
+              "RelativeDocumentMoniker": "lab3DO\\TestExtins.h",
+              "ToolTip": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestExtins.h",
+              "RelativeToolTip": "lab3DO\\TestExtins.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T18:47:51.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\App.cpp",
+              "RelativeDocumentMoniker": "lab3DO\\App.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\App.cpp",
+              "RelativeToolTip": "lab3DO\\App.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T18:37:16.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DO.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\DO.cpp",
+              "RelativeDocumentMoniker": "lab3DO\\DO.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\DO.cpp",
+              "RelativeToolTip": "lab3DO\\DO.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAL4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T18:35:08.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestScurt.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestScurt.cpp",
+              "RelativeDocumentMoniker": "lab3DO\\TestScurt.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestScurt.cpp",
+              "RelativeToolTip": "lab3DO\\TestScurt.cpp",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T18:36:50.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestScurt.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestScurt.h",
+              "RelativeDocumentMoniker": "lab3DO\\TestScurt.h",
+              "ToolTip": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\TestScurt.h",
+              "RelativeToolTip": "lab3DO\\TestScurt.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T18:36:31.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Iterator.cpp",
+              "DocumentMoniker": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\Iterator.cpp",
+              "RelativeDocumentMoniker": "lab3DO\\Iterator.cpp",
+              "ToolTip": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\Iterator.cpp",
+              "RelativeToolTip": "lab3DO\\Iterator.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T18:35:52.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Iterator.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\Iterator.h",
+              "RelativeDocumentMoniker": "lab3DO\\Iterator.h",
+              "ToolTip": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\Iterator.h",
+              "RelativeToolTip": "lab3DO\\Iterator.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T18:35:34.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DO.h",
+              "DocumentMoniker": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\DO.h",
+              "RelativeDocumentMoniker": "lab3DO\\DO.h",
+              "ToolTip": "C:\\An1\\Sem2\\SDA\\lab3DO\\lab3DO\\DO.h",
+              "RelativeToolTip": "lab3DO\\DO.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T18:34:53.284Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
