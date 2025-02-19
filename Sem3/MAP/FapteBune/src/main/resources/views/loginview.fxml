@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.faptebune.Controller.ControllerLogin">
+   <children>
+      <ListView fx:id="listaUseri" layoutX="32.0" layoutY="24.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField fx:id="username" layoutX="32.0" layoutY="239.0" />
+      <Button fx:id="login" layoutX="32.0" layoutY="322.0" mnemonicParsing="false" onAction="#handleLogin" text="LogIn" />
+      <TextField fx:id="nume" layoutX="390.0" layoutY="34.0" />
+      <TextField fx:id="prenume" layoutX="390.0" layoutY="72.0" />
+      <TextField fx:id="username1" layoutX="390.0" layoutY="106.0" />
+      <PasswordField fx:id="parola1" layoutX="390.0" layoutY="138.0" />
+      <PasswordField fx:id="parola2" layoutX="390.0" layoutY="175.0" />
+      <TextField fx:id="strada" layoutX="390.0" layoutY="239.0" />
+      <ComboBox fx:id="oras" layoutX="390.0" layoutY="212.0" prefWidth="150.0" />
+      <TextField fx:id="nrstrada" layoutX="391.0" layoutY="274.0" />
+      <TextField fx:id="telefon" layoutX="390.0" layoutY="310.0" />
+      <Label layoutX="320.0" layoutY="38.0" prefHeight="17.0" prefWidth="54.0" text="nume:" />
+      <Label layoutX="313.0" layoutY="76.0" prefHeight="17.0" prefWidth="71.0" text="prenume:" />
+      <Label layoutX="313.0" layoutY="110.0" text="username:" />
+      <Label layoutX="320.0" layoutY="142.0" text="parola:" />
+      <Label layoutX="273.0" layoutY="179.0" prefHeight="17.0" prefWidth="108.0" text="confirmare parola:" />
+      <Label layoutX="327.0" layoutY="216.0" text="oras:" />
+      <Label layoutX="324.0" layoutY="243.0" text="strada:" />
+      <Label layoutX="298.0" layoutY="278.0" prefHeight="17.0" prefWidth="84.0" text="numarStrada:" />
+      <Label layoutX="313.0" layoutY="314.0" text="telefon:" />
+      <Button fx:id="inregistrare" layoutX="316.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleReg" text="inregistrare" />
+      <PasswordField fx:id="parola" layoutX="45.0" layoutY="274.0" />
+   </children>
+</AnchorPane>

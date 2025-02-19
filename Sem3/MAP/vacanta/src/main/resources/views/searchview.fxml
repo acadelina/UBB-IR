@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.vacanta.Controller.ControllerSearch">
+   <children>
+      <TableView fx:id="hoteluri" layoutX="46.0" layoutY="41.0" prefHeight="200.0" prefWidth="445.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="locatione" prefWidth="75.0" text="location" />
+            <TableColumn fx:id="name" prefWidth="75.0" text="name" />
+            <TableColumn fx:id="rooms" prefWidth="75.0" text="rooms" />
+            <TableColumn fx:id="price" prefWidth="75.0" text="price" />
+            <TableColumn fx:id="type" prefWidth="75.0" text="type" />
+        </columns>
+      </TableView>
+      <ComboBox fx:id="locations" layoutX="46.0" layoutY="256.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.comenzi.Controller.StaffController">
+   <children>
+      <TableView fx:id="placedorders" layoutX="37.0" layoutY="35.0" prefHeight="200.0" prefWidth="522.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="50.0" text="id" />
+          <TableColumn fx:id="table" prefWidth="72.0" text="table" />
+            <TableColumn fx:id="menuitems" prefWidth="230.0" text="menuItems" />
+            <TableColumn fx:id="date" prefWidth="75.0" text="date" />
+            <TableColumn fx:id="status" prefWidth="94.0" text="status" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

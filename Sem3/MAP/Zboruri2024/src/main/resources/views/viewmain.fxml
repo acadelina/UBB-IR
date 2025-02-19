@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="464.0" prefWidth="996.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.zboruri2024.Controller.ControllerMain">
+   <children>
+      <TableView fx:id="bileteUser" layoutX="14.0" layoutY="38.0" prefHeight="176.0" prefWidth="269.0">
+        <columns>
+          <TableColumn fx:id="id2" prefWidth="45.0" text="id" />
+          <TableColumn fx:id="username" prefWidth="73.0" text="username" />
+            <TableColumn fx:id="flightid" prefWidth="57.0" text="flightid" />
+            <TableColumn fx:id="purchase" prefWidth="93.0" text="purchaseTime" />
+        </columns>
+      </TableView>
+      <TableView fx:id="bileteData" layoutX="15.0" layoutY="234.0" prefHeight="176.0" prefWidth="269.0">
+         <columns>
+            <TableColumn fx:id="id1" prefWidth="45.0" text="id" />
+            <TableColumn fx:id="username1" prefWidth="73.0" text="username" />
+            <TableColumn fx:id="flightid1" prefWidth="57.0" text="flightid" />
+            <TableColumn fx:id="purchase1" prefWidth="93.0" text="purchaseTime" />
+         </columns>
+      </TableView>
+      <ComboBox fx:id="fromCB" layoutX="382.0" layoutY="254.0" prefWidth="150.0" />
+      <ComboBox fx:id="toCB" layoutX="382.0" layoutY="297.0" prefWidth="150.0" />
+      <DatePicker fx:id="dataCB" layoutX="382.0" layoutY="331.0" prefHeight="25.0" prefWidth="150.0" />
+      <TableView fx:id="zboruri" layoutX="314.0" layoutY="26.0" prefHeight="200.0" prefWidth="585.0">
+        <columns>
+            <TableColumn fx:id="id" prefWidth="32.0" text="id" />
+          <TableColumn fx:id="from" prefWidth="114.0" text="from" />
+          <TableColumn fx:id="to" prefWidth="79.0" text="to" />
+            <TableColumn fx:id="depTime" prefWidth="108.0" text="depTime" />
+            <TableColumn fx:id="arTime" maxWidth="170.0" minWidth="-1.0" prefWidth="110.0" text="landTime" />
+            <TableColumn fx:id="seats" prefWidth="73.0" text="seats" />
+            <TableColumn fx:id="avSeats" prefWidth="75.0" text="avSeats" />
+        </columns>
+      </TableView>
+      <Button fx:id="handleBuy" layoutX="383.0" layoutY="376.0" mnemonicParsing="false" onAction="#handleBuy" prefHeight="25.0" prefWidth="150.0" text="CumparaBilet" />
+      <Button fx:id="filtreaza" layoutX="590.0" layoutY="376.0" mnemonicParsing="false" onAction="#handleFilter" text="filtreaza" />
+   </children>
+</AnchorPane>

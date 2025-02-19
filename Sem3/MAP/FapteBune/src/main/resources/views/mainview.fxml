@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.faptebune.Controller.ControllerMain">
+   <children>
+      <TabPane layoutX="-4.0" layoutY="-1.0" prefHeight="533.0" prefWidth="721.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Doresc sa ajut!">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="467.0" prefWidth="797.0">
+                     <children>
+                        <TableView fx:id="ajutor" layoutX="14.0" layoutY="29.0" prefHeight="200.0" prefWidth="483.0">
+                          <columns>
+                            <TableColumn fx:id="id" prefWidth="39.0" text="id" />
+                            <TableColumn fx:id="titlu" prefWidth="64.0" text="titlu" />
+                              <TableColumn fx:id="descriere" prefWidth="64.0" text="descriere" />
+                              <TableColumn fx:id="deadline" prefWidth="64.0" text="deadline" />
+                              <TableColumn fx:id="omInNevoie" prefWidth="85.0" text="omInNevoie" />
+                              <TableColumn fx:id="omSalvator" prefWidth="85.0" text="omSalvator" />
+                              <TableColumn fx:id="status" prefWidth="85.0" text="status" />
+                          </columns>
+                        </TableView>
+                        <TableView fx:id="faptebune" layoutX="15.0" layoutY="266.0" prefHeight="191.0" prefWidth="486.0">
+                           <columns>
+                              <TableColumn fx:id="id1" prefWidth="39.0" text="id" />
+                              <TableColumn fx:id="titlu1" prefWidth="64.0" text="titlu" />
+                              <TableColumn fx:id="descriere1" prefWidth="64.0" text="descriere" />
+                              <TableColumn fx:id="deadline1" prefWidth="64.0" text="deadline" />
+                              <TableColumn fx:id="omInNevoie1" prefWidth="85.0" text="omInNevoie" />
+                              <TableColumn fx:id="omSalvator1" prefWidth="85.0" text="omSalvator" />
+                              <TableColumn fx:id="status1" prefWidth="85.0" text="status" />
+                           </columns>
+                        </TableView>
+                        <Button fx:id="ajutorbtn" layoutX="548.0" layoutY="96.0" mnemonicParsing="false" onAction="#ajutorBtn" text="Ajuta!" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Doresc sa fiu ajutat!">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="titlu2" layoutX="188.0" layoutY="48.0" />
+                        <TextField fx:id="desc" layoutX="188.0" layoutY="97.0" />
+                        <DatePicker fx:id="deadline2" layoutX="181.0" layoutY="137.0" />
+                        <Label layoutX="58.0" layoutY="48.0" text="Titlu" />
+                        <Label layoutX="65.0" layoutY="101.0" text="Descriere:" />
+                        <Label layoutX="65.0" layoutY="141.0" text="Deadline:" />
+                        <Button fx:id="nevoiebtn" layoutX="55.0" layoutY="204.0" mnemonicParsing="false" onAction="#nevoieBtn" text="AdaugaNevoie" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

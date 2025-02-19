@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.clinica2.Controller.ControllerSectii">
+   <children>
+      <TableView fx:id="sectii" layoutX="156.0" layoutY="76.0" prefHeight="200.0" prefWidth="378.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="nume" prefWidth="75.0" text="nume" />
+            <TableColumn fx:id="sef" prefWidth="75.0" text="sef" />
+            <TableColumn fx:id="pret" prefWidth="75.0" text="pret" />
+            <TableColumn fx:id="durata" prefWidth="75.0" text="durataMax" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

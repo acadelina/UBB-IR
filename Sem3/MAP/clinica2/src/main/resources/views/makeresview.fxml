@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.clinica2.Controller.ControllerConsult">
+   <children>
+      <DatePicker fx:id="data" layoutX="31.0" layoutY="283.0" />
+      <ListView fx:id="medici" layoutX="31.0" layoutY="39.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="31.0" layoutY="334.0" mnemonicParsing="false" onAction="#handleAdd" text="Rezerva" />
+      <Label layoutX="286.0" layoutY="49.0" text="cnp:" />
+      <Label layoutX="286.0" layoutY="89.0" text="nume:" />
+      <TextField fx:id="cnp" layoutX="332.0" layoutY="45.0" />
+      <TextField fx:id="nume" layoutX="332.0" layoutY="85.0" />
+   </children>
+</AnchorPane>

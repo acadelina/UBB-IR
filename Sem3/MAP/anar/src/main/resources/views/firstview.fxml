@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.anar.Controller.ControllerRauri">
+   <children>
+      <TableView fx:id="tabelrauri" layoutX="34.0" layoutY="24.0" prefHeight="200.0" prefWidth="227.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="nume" prefWidth="75.0" text="nume" />
+            <TableColumn fx:id="cotamedie" prefWidth="75.0" text="cotamedie" />
+        </columns>
+      </TableView>
+      <TextField fx:id="cotan" layoutX="34.0" layoutY="245.0" />
+      <Button layoutX="193.0" layoutY="245.0" mnemonicParsing="false" onAction="#handleButtonAction" text="schimba cota" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.vacanta.Controller.ControllerPerioada">
+   <children>
+      <TableView fx:id="oferte" layoutX="53.0" layoutY="27.0" prefHeight="200.0" prefWidth="377.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="hotelid" prefWidth="75.0" text="hotelid" />
+            <TableColumn fx:id="startdate" prefWidth="75.0" text="startdate" />
+            <TableColumn fx:id="enddate" prefWidth="75.0" text="enddate" />
+            <TableColumn fx:id="percents" prefWidth="75.0" text="percents" />
+        </columns>
+      </TableView>
+      <DatePicker fx:id="data2" layoutX="46.0" layoutY="294.0" />
+      <TextField fx:id="idclient" layoutX="356.0" layoutY="244.0" />
+      <TextField fx:id="numeclient" layoutX="356.0" layoutY="276.0" />
+      <Label layoutX="286.0" layoutY="248.0" text="id" />
+      <Label layoutX="286.0" layoutY="280.0" text="nume" />
+      <Button layoutX="286.0" layoutY="326.0" mnemonicParsing="false" onAction="#handleRezerva" text="REZERVA" />
+      <DatePicker fx:id="data1" layoutX="46.0" layoutY="257.0" />
+   </children>
+</AnchorPane>

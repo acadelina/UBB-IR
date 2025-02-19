@@ -1,0 +1,15 @@
+%egalitate(L:list,P:list)
+%(i,i)
+stergeE([],_,[]).
+stergeE([H|T],E,[H|R]):-
+    H=\=E,
+    stergeE(T,E,R).
+stergeE([H|T],E,R):-
+    H=:=E,
+    stergeE(T,E,R).
+
+egalitate([],[]).
+egalitate([H|T],L):-
+    exista2(L,H),
+    stergeE(L,H,R1),
+    egalitate(T,R1).

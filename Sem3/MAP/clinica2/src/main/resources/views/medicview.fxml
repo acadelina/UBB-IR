@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.clinica2.Controller.ControllerMedic">
+   <children>
+      <TableView fx:id="consultatii" layoutX="47.0" layoutY="45.0" prefHeight="200.0" prefWidth="417.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="idmedic" prefWidth="75.0" text="idmedic" />
+            <TableColumn fx:id="cnppacient" prefWidth="75.0" text="cnppacient" />
+            <TableColumn fx:id="numepacient" prefWidth="95.33334350585938" text="numepacient" />
+            <TableColumn fx:id="data" prefWidth="95.33331298828125" text="data" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="759.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.anar.Controller.ControllerLocalitati">
+   <children>
+      <TableView fx:id="ridicat" layoutX="14.0" layoutY="33.0" prefHeight="186.0" prefWidth="478.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="localitate" prefWidth="89.0" text="localitate" />
+            <TableColumn fx:id="rau" prefWidth="93.0" text="rau" />
+            <TableColumn fx:id="cotaMin" prefWidth="104.0" text="cotaMin" />
+            <TableColumn fx:id="cotaMax" prefWidth="116.0" text="cotaMax" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="14.0" text="Risc Ridicat" />
+      <TableView fx:id="mediu" layoutX="15.0" layoutY="267.0" prefHeight="186.0" prefWidth="478.0">
+         <columns>
+            <TableColumn fx:id="id1" prefWidth="75.0" text="id" />
+            <TableColumn fx:id="localitate1" prefWidth="89.0" text="localitate" />
+            <TableColumn fx:id="rau1" prefWidth="93.0" text="rau" />
+            <TableColumn fx:id="cotaMin1" prefWidth="104.0" text="cotaMin" />
+            <TableColumn fx:id="cotaMax1" prefWidth="116.0" text="cotaMax" />
+         </columns>
+      </TableView>
+      <Label layoutX="24.0" layoutY="244.0" prefHeight="17.0" prefWidth="60.0" text="Risc MEdiu" />
+      <Label layoutX="24.0" layoutY="461.0" text="Risc Resud" />
+      <TableView fx:id="redus" layoutX="25.0" layoutY="495.0" prefHeight="186.0" prefWidth="478.0">
+         <columns>
+            <TableColumn fx:id="id11" prefWidth="75.0" text="id" />
+            <TableColumn fx:id="localitate11" prefWidth="89.0" text="localitate" />
+            <TableColumn fx:id="rau11" prefWidth="93.0" text="rau" />
+            <TableColumn fx:id="cotaMin11" prefWidth="104.0" text="cotaMin" />
+            <TableColumn fx:id="cotaMax11" prefWidth="116.0" text="cotaMax" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

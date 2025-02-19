@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.map.administratiebloc.Controller.Controller">
+   <children>
+      <TableView fx:id="tabel" layoutX="14.0" layoutY="26.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="Bloc" prefWidth="99.0" text="Bloc" />
+          <TableColumn fx:id="Mediu" prefWidth="100.0" text="NrMediuLocatari" />
+        </columns>
+      </TableView>
+      <TextField fx:id="text" layoutX="58.0" layoutY="241.0" prefHeight="25.0" prefWidth="158.0" />
+      <Label layoutX="22.0" layoutY="241.0" prefHeight="25.0" prefWidth="49.0" text="Bloc:" />
+      <ListView fx:id="lista" layoutX="270.0" layoutY="26.0" prefHeight="319.0" prefWidth="271.0" />
+      <Button fx:id="btnloc" layoutX="21.0" layoutY="283.0" mnemonicParsing="false" onAction="#handleLoc" text="Locatari" />
+      <Button fx:id="btnch" layoutX="99.0" layoutY="283.0" mnemonicParsing="false" onAction="#handleCh" text="Chiriasi" />
+   </children>
+</AnchorPane>

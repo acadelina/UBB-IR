@@ -1,0 +1,16 @@
+%cmmdc(A:int,B:int,R:int)
+%(i,i,o)
+
+cmmdc(A,0,A).
+cmmdc(A,B,R):-
+    B=\=0,
+    Rest is A mod B,
+    cmmdc(B,Rest,R1),
+    R is R1.
+
+%cmmmc(A:int,B:int,C:int)
+%(i,i,o)
+
+cmmmc(A,B,C):-
+    cmmdc(A,B,C2),
+    C is A*B/C2.
