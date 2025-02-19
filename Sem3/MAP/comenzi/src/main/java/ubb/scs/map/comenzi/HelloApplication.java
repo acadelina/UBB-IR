@@ -19,7 +19,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         String username="postgres";
-        String pasword="Eliada31";
+        String pasword="";
         String url="jdbc:postgresql://localhost:5432/comenzi";
         System.out.println(getClass().getResource("/views/tableview.fxml"));
         RepoMenu repoMenu=new RepoMenu(url,username,pasword);
