@@ -19,7 +19,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         String username="postgres";
-        String pasword="Eliada31";
+        String pasword="";
         String url="jdbc:postgresql://localhost:5432/clinica2";
 
         RepoMedic repoMedic=new RepoMedic(url,username,pasword);
