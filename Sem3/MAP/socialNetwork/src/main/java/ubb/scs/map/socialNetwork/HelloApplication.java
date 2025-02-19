@@ -32,7 +32,7 @@ public class HelloApplication extends Application {
         System.out.println(Class.forName("org.postgresql.Driver"));
         System.out.println(getClass().getResource("/css/chatstyle.css"));
         String username="postgres";
-        String pasword="Eliada31";
+        String pasword="";
         String url="jdbc:postgresql://localhost:5432/socialnetwork1";
         UserDBRepository utilizatorRepository =
                 new UserDBRepository(new UserValidator(),url,username, pasword);
