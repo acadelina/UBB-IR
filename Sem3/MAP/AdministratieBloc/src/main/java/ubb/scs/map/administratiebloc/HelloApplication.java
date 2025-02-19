@@ -19,7 +19,7 @@ public class HelloApplication extends Application {
         System.out.println(getClass().getResource("/views/myview.fxml"));
 
         String username="postgres";
-        String pasword="Eliada31";
+        String pasword="";
         String url="jdbc:postgresql://localhost:5432/administratiebloc";
         BlocRepo blocRepo=new BlocRepo(url,username,pasword);
         AdreseRepo adreseRepo=new AdreseRepo(url,username,pasword);
