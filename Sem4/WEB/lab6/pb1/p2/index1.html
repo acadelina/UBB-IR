@@ -1,0 +1,43 @@
+<table id="tabela">
+    <thead>
+    <tr><th>Nume</th><th>Prenume</th><th>Telefon</th><th>Email</th></tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<button id="prev">Prev</button>
+<button id="next">Next</button>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    let currentPage = 1;
+
+    function loadData(page) {
+        $.getJSON('getPage.php', {page: page}, function(response) {
+            const tbody = $('#tabela tbody');
+            tbody.empty();
+            $.each(response.records, function(_, row) {
+                let tr = $('<tr></tr>');
+                $.each(row, function(_, cell) {
+                    tr.append($('<td></td>').text(cell));
+                });
+                tbody.append(tr);
+            });
+            currentPage = response.currentPage;
+            $('#prev').prop('disabled', !response.hasPrev);
+            $('#next').prop('disabled', !response.hasNext);
+        });
+    }
+
+    $('#prev').click(function() {
+        if(currentPage > 1) loadData(currentPage - 1);
+    });
+
+    $('#next').click(function() {
+        loadData(currentPage + 1);
+    });
+
+    $(document).ready(function() {
+        loadData(1);
+    });
+</script>

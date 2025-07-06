@@ -1,0 +1,14 @@
+C:\An2\Sem4\MPP\lab8cs\Networking\bin\Debug\net9.0-windows\Networking.exe
+C:\An2\Sem4\MPP\lab8cs\Networking\bin\Debug\net9.0-windows\Networking.deps.json
+C:\An2\Sem4\MPP\lab8cs\Networking\bin\Debug\net9.0-windows\Networking.runtimeconfig.json
+C:\An2\Sem4\MPP\lab8cs\Networking\bin\Debug\net9.0-windows\Networking.dll
+C:\An2\Sem4\MPP\lab8cs\Networking\bin\Debug\net9.0-windows\Networking.pdb
+C:\An2\Sem4\MPP\lab8cs\Networking\obj\Debug\net9.0-windows\Networking.GeneratedMSBuildEditorConfig.editorconfig
+C:\An2\Sem4\MPP\lab8cs\Networking\obj\Debug\net9.0-windows\Networking.AssemblyInfoInputs.cache
+C:\An2\Sem4\MPP\lab8cs\Networking\obj\Debug\net9.0-windows\Networking.AssemblyInfo.cs
+C:\An2\Sem4\MPP\lab8cs\Networking\obj\Debug\net9.0-windows\Networking.csproj.CoreCompileInputs.cache
+C:\An2\Sem4\MPP\lab8cs\Networking\obj\Debug\net9.0-windows\Networking.dll
+C:\An2\Sem4\MPP\lab8cs\Networking\obj\Debug\net9.0-windows\refint\Networking.dll
+C:\An2\Sem4\MPP\lab8cs\Networking\obj\Debug\net9.0-windows\Networking.pdb
+C:\An2\Sem4\MPP\lab8cs\Networking\obj\Debug\net9.0-windows\Networking.genruntimeconfig.cache
+C:\An2\Sem4\MPP\lab8cs\Networking\obj\Debug\net9.0-windows\ref\Networking.dll

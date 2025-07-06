@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Rezervare Hotel</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .centered {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<h1><img src="img/logo.png" alt="Logo Hotel" width="70">   Formular Rezervare Hotel</h1>
+<div class="intro-message">
+  <p>Vă mulțumim că ați ales să rezervați la hotelul nostru! Completați formularul de mai jos pentru a finaliza rezervarea.</p>
+</div>
+<form action="submit_reservation.php" method="post">
+  <fieldset>
+    <legend><strong>Detalii Personale</strong></legend>
+    <table  style="border-width:1px ;">
+      <tr>
+        <td >&nbsp;Nume:</td>
+        <td ><input type="text" name="nume" maxlength="50" size="30" placeholder="Introdu numele" required></td>
+      </tr>
+      <tr>
+        <td >&nbsp;Prenume:</td>
+        <td><input type="text" name="prenume" maxlength="50" size="30" placeholder="Introdu prenumele" required></td>
+      </tr>
+      <tr>
+        <td >&nbsp;CNP:</td>
+        <td><input type="text" name="CNP" maxlength="13" size="30" placeholder="Introdu CNP-ul" pattern="\d{13}" required></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Email:</td>
+        <td><input type="email" name="email" maxlength="50" size="30" placeholder="Introdu email-ul" required></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Telefon:</td>
+        <td><input type="tel" name="telefon" maxlength="10" size="30" placeholder="Introdu telefonul" required></td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend><strong>Detalii Rezervare</strong></legend>
+    <table  style="border-width:1px ;">
+      <tr>
+        <td>&nbsp;Dată Check-in:</td>
+        <td><input type="date" name="checkin"  required></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Dată Check-out:</td>
+        <td><input type="date" name="checkout" required></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Număr Persoane:</td>
+        <td><input type="number" name="persoane" min="1" required></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Număr Adulți:</td>
+        <td><input type="number" name="adulti" min="1"></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Număr Copii:</td>
+        <td><input type="number" name="copii" min="0"></td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend><strong>Preferințe</strong></legend>
+    <table style="border-width:1px ;">
+      <tr>
+        <td rowspan="2">
+          &nbsp;Tipul Camerei<br>
+          <input type="radio" name="camera" value="single"> Cameră Single<br>
+          <input type="radio" name="camera" value="dubla"> Cameră Dublă<br>
+          <input type="radio" name="camera" value="suita"> Apartament
+        </td>
+
+        <td >
+          &nbsp;Tipul Patului:<br>
+          <input type="radio" name="pat" value="dublu"> Dublu<br>
+          <input type="radio" name="pat" value="twin"> Twin<br>
+          <input type="radio" name="pat" value="queen size"> Queen Size<br>
+        </td>
+      </tr>
+
+     <tr>
+        <td>
+          <table  style="border-width:1px; ">
+            <tr>
+              <td>
+                Etaj Preferat:<br>
+                <input type="number" name="etaj" min="1" max="10">
+              </td>
+              <td>
+                Vedere:<br>
+                <select name="vedere">
+                  <option value="mare">Vedere la Mare</option>
+                  <option value="munte">Vedere la Munte</option>
+                  <option value="oras">Vedere la Oraș</option>
+                </select>
+              </td>
+            </tr>
+          </table></td>
+      </tr>
+
+    </table>
+
+  </fieldset>
+  <fieldset>
+    <legend><strong>Servicii Suplimentare</strong></legend>
+    <table style="border-width:1px ;width:100%;">
+      <tr>
+        <td>
+          <ul>
+            <li>
+              <input type="checkbox" name="servicii1" value="micdejun"> Mic Dejun
+              <ul>
+                <li>acces între orele 8.00-12.00</li>
+              </ul>
+            </li>
+            <li>
+              <input type="checkbox" name="servicii2" value="parcare"> Parcare
+              <ul>
+                <li>acces 24/7</li>
+              </ul>
+            </li>
+            <li>
+              <input type="checkbox" name="servicii3" value="spa"> Acces Spa
+              <ol>
+                <li>
+                   Piscină exterioară
+                </li>
+                <li>
+                  Piscină interioară
+                </li>
+                <li>
+                  Masaj
+                </li>
+                <li>
+                  Saună
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend><strong>Plată</strong></legend>
+    <table style="border-width:1px ;width:100%;">
+      <tr>
+        <td>
+          <select name="plata" required>
+            <option value="">Alegeti metoda de plata</option>
+            <option value="card">Card</option>
+            <option value="cash">Cash</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table style="border-width:1px ;width:100%;">
+            <tr>
+              <td>
+                &nbsp;Suplimentar:
+              </td>
+              <td>
+                <ul>
+                  <li>
+                    <input type="checkbox" name="suplimentar1" value="voucher">Voucher&nbsp;
+                    <input type="text" name="voucher" maxlength="50" size="30">
+                  </li>
+                  <li>
+                    <input type="checkbox" name="suplimentar2" value="cod">Cod reducere
+                    <input type="text" name="cod" maxlength="50" size="26">
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend><strong>Observatii suplimentare</strong> </legend>
+    <textarea name="observatii" rows="10" style="width: 100%"></textarea>
+  </fieldset>
+
+    <input type="submit" value="Trimite Rezervarea">
+    <input type="reset" value="Resetează">
+  <p><a href="https://www.seaside-hotel.gr/.html" target="_blank">Înapoi la pagina hotelului</a></p>
+
+</form>
+
+
+
+</body>
+</html>

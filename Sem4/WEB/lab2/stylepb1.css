@@ -1,0 +1,21 @@
+#left{
+    text-align: center;
+    align-self: center;
+}
+
+#right{
+    background-image: url("img/img.png");
+    width:200px;
+    flex:none;
+    display: flex;
+    margin: auto;
+}
+.parent div{
+    width: 200px;
+}
+.parent{
+    width: 400px;
+    border:2px solid black;
+    display: flex;
+    flex-direction: row;
+}

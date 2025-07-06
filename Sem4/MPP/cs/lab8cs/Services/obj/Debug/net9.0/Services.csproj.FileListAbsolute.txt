@@ -1,0 +1,16 @@
+C:\An2\Sem4\MPP\lab8cs\Services\bin\Debug\net9.0\Services.deps.json
+C:\An2\Sem4\MPP\lab8cs\Services\bin\Debug\net9.0\Services.dll
+C:\An2\Sem4\MPP\lab8cs\Services\bin\Debug\net9.0\Services.pdb
+C:\An2\Sem4\MPP\lab8cs\Services\bin\Debug\net9.0\Domain.dll
+C:\An2\Sem4\MPP\lab8cs\Services\bin\Debug\net9.0\Domain.pdb
+C:\An2\Sem4\MPP\lab8cs\Services\obj\Debug\net9.0\Services.csproj.AssemblyReference.cache
+C:\An2\Sem4\MPP\lab8cs\Services\obj\Debug\net9.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\An2\Sem4\MPP\lab8cs\Services\obj\Debug\net9.0\Services.AssemblyInfoInputs.cache
+C:\An2\Sem4\MPP\lab8cs\Services\obj\Debug\net9.0\Services.AssemblyInfo.cs
+C:\An2\Sem4\MPP\lab8cs\Services\obj\Debug\net9.0\Services.csproj.CoreCompileInputs.cache
+C:\An2\Sem4\MPP\lab8cs\Services\obj\Debug\net9.0\Services.csproj.Up2Date
+C:\An2\Sem4\MPP\lab8cs\Services\obj\Debug\net9.0\Services.dll
+C:\An2\Sem4\MPP\lab8cs\Services\obj\Debug\net9.0\refint\Services.dll
+C:\An2\Sem4\MPP\lab8cs\Services\obj\Debug\net9.0\Services.pdb
+C:\An2\Sem4\MPP\lab8cs\Services\obj\Debug\net9.0\ref\Services.dll
+C:\An2\Sem4\MPP\lab8cs\Services\bin\Debug\net9.0\log4net.config

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 6</title>
+    <style>
+        #puzzle {
+            width: 180px;
+            border: 1px solid black;
+        }
+        td {
+            text-align: center;
+            height: 50px;
+            border: 1px solid black;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<table id="puzzle"></table>
+
+<script>
+    let empty, dim = 3;
+
+    function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    function generateNumbers(n) {
+        let array = [];
+        for (let i = 1; i <= n; i++) {
+            array.push(i);
+        }
+        return shuffle(array);
+    }
+
+    function generateTable() {
+        const numbers = generateNumbers(dim * dim);
+        let $table = $('#puzzle');
+        $table.empty();
+
+        for (let i = 0; i < dim; i++) {
+            let $row = $('<tr></tr>');
+            for (let j = 0; j < dim; j++) {
+                let index = i * dim + j;
+                let $cell = $('<td></td>').attr('id', index);
+                let value = numbers.pop();
+                if (value !== dim * dim) {
+                    $cell.text(value);
+                } else {
+                    empty = index;
+                }
+                $row.append($cell);
+            }
+            $table.append($row);
+        }
+    }
+
+    function swap(id1, id2) {
+        let $td1 = $('#' + id1);
+        let $td2 = $('#' + id2);
+        let temp = $td1.html();
+        $td1.html($td2.html());
+        $td2.html(temp);
+        empty = id2;
+    }
+
+    function moveTile(e) {
+        switch (e.which) {
+            case 38:
+                if (empty - dim >= 0)
+                    swap(empty, empty - dim);
+                else alert("I can't move up");
+                break;
+            case 40:
+                if (empty + dim < dim * dim)
+                    swap(empty, empty + dim);
+                else alert("I can't move down");
+                break;
+            case 37:
+                if (empty % dim !== 0)
+                    swap(empty, empty - 1);
+                else alert("I can't move left");
+                break;
+            case 39:
+                if (empty % dim !== dim - 1)
+                    swap(empty, empty + 1);
+                else alert("I can't move right");
+                break;
+        }
+    }
+
+    $(document).ready(function () {
+        generateTable();
+        $(document).on('keydown', moveTile);
+    });
+</script>
+</body>
+</html>

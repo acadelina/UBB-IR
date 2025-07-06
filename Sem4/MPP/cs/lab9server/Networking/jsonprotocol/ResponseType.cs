@@ -1,0 +1,8 @@
+﻿namespace Networking.jsonprotocol;
+
+public enum ResponseType
+{
+    OK,
+    ERROR,
+    LOGIN,LOGOUT,REZERVAREBILET,FILTEREDSPECTACOLE,GETALLSPECTACOLE,UPDATESPECTACOL
+}

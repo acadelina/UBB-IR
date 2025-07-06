@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Problema1</title>
+  <style>
+    div.container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+    }
+    select {
+      width: 200px;
+      margin: 0 10px;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <select id="select1" size="5">
+    <option class="tip1">1</option>
+    <option class="tip1">2</option>
+    <option class="tip1">3</option>
+    <option class="tip1">4</option>
+  </select>
+
+  <select id="select2" size="5">
+    <option class="tip2">a</option>
+    <option class="tip2">b</option>
+    <option class="tip2">c</option>
+  </select>
+</div>
+
+<script>
+  function moveOption($source, $destination) {
+    const $selected = $source.find(":selected");
+    if ($selected.length) {
+      $selected.remove().appendTo($destination);
+    }
+  }
+
+  $(document).ready(function() {
+    $('#select1').on('dblclick', function() {
+      moveOption($(this), $('#select2'));
+    });
+
+    $('#select2').on('dblclick', function() {
+      moveOption($(this), $('#select1'));
+    });
+  });
+</script>
+</body>
+</html>

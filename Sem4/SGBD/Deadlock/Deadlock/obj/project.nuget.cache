@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "i076+iEcExIPumKjRBGeAKi04ISbF4Irn8xXDDyB2AzlqpUtC1+02zWNnpqt4fj1tja1NKrgGK5cG5vdn+i/pw==",
+  "success": true,
+  "projectFilePath": "C:\\An2\\Sem4\\SGBD\\Deadlock\\Deadlock\\Deadlock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adeli\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\adeli\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\adeli\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\adeli\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\adeli\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

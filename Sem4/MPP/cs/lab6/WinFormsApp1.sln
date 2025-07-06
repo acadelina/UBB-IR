@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{108590AC-6D34-4D78-A6F5-5675DC5C347E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{108590AC-6D34-4D78-A6F5-5675DC5C347E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108590AC-6D34-4D78-A6F5-5675DC5C347E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108590AC-6D34-4D78-A6F5-5675DC5C347E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108590AC-6D34-4D78-A6F5-5675DC5C347E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

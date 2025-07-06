@@ -1,0 +1,39 @@
+#nume, #prenume {
+    background: repeating-linear-gradient(90deg, white 0px, white 19px, black 20px);
+    height: 18px;
+    background-size: 20px;
+    padding-left: 0.5ch;
+    letter-spacing: 13px;
+    display: flex;
+    font-size: 13px;
+    width: 415px;
+    font-family: Consolas;
+
+}
+
+#CNP {
+    background: repeating-linear-gradient(90deg, white 0px, white 19px, black 20px);
+    height: 18px;
+    background-size: 20px;
+    padding-left: 0.5ch;
+    letter-spacing: 13px;
+    display: flex;
+    font-size: 13px;
+    font-family: Consolas;
+    width: 236px;
+    float: left;
+}
+
+label {
+    padding-right: 25px;
+    width: 250px;
+    text-align: left;
+}
+
+div{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding-left: 10px;
+    width:530px
+}

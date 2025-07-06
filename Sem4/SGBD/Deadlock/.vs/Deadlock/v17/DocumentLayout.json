@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\An2\\Sem4\\SGBD\\Deadlock\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE931636-B4B2-4C98-9741-B918FC2D8FB3}|Deadlock\\Deadlock.csproj|c:\\an2\\sem4\\sgbd\\deadlock\\deadlock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE931636-B4B2-4C98-9741-B918FC2D8FB3}|Deadlock\\Deadlock.csproj|solutionrelative:deadlock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE931636-B4B2-4C98-9741-B918FC2D8FB3}|Deadlock\\Deadlock.csproj|C:\\An2\\Sem4\\SGBD\\Deadlock\\deadlock\\deadlock.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE931636-B4B2-4C98-9741-B918FC2D8FB3}|Deadlock\\Deadlock.csproj|solutionrelative:deadlock\\deadlock.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Deadlock",
+              "DocumentMoniker": "C:\\An2\\Sem4\\SGBD\\Deadlock\\Deadlock\\Deadlock.csproj",
+              "RelativeDocumentMoniker": "Deadlock\\Deadlock.csproj",
+              "ToolTip": "C:\\An2\\Sem4\\SGBD\\Deadlock\\Deadlock\\Deadlock.csproj",
+              "RelativeToolTip": "Deadlock\\Deadlock.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-30T11:44:41.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\An2\\Sem4\\SGBD\\Deadlock\\Deadlock\\Program.cs",
+              "RelativeDocumentMoniker": "Deadlock\\Program.cs",
+              "ToolTip": "C:\\An2\\Sem4\\SGBD\\Deadlock\\Deadlock\\Program.cs",
+              "RelativeToolTip": "Deadlock\\Program.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAgwD4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T11:39:59.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

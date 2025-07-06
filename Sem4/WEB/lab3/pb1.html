@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Problema1</title>
+  <style>
+    div.container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+    }
+    select{
+      width: 200px;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <select id="select1">
+      <option class="tip1">1</option>
+      <option class="tip1">2</option>
+      <option class="tip1">3</option>
+      <option class="tip1">4</option>
+    </select>
+
+    <select id="select2">
+      <option class="tip2">a</option>
+      <option class="tip2">b</option>
+      <option class="tip2">c</option>
+    </select>
+  </div>
+
+</body>
+<script>
+  var select1 = document.getElementById("select1");
+  var select2 = document.getElementById("select2");
+  function move(source,destination) {
+    var child=source.children[source.selectedIndex];
+    source.removeChild(child);
+    destination.add(child);
+  }
+  select1.ondblclick=()=>move(select1,select2);
+  select2.ondblclick=()=>move(select2,select1);
+</script>
+</html>

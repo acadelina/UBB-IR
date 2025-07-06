@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 2</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        input {
+            margin-bottom: 5px;
+        }
+        span#Message {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form id="formular">
+        Nume: <input type="text" id="nume"><br>
+        Data nașterii: <input type="date" id="data"><br>
+        Vârsta: <input type="number" id="varsta"><br>
+        Email: <input type="email" id="email"><br>
+        <span id="Message"></span><br>
+        <button type="button" id="submitBtn">Submit</button>
+    </form>
+</div>
+
+<script>
+    function validateDate(birthday) {
+        const today = new Date();
+        const bday = new Date(birthday);
+        return !(bday < today);
+    }
+
+    function calculateAge(birthday) {
+        const today = new Date();
+        const birth = new Date(birthday);
+        let age = today.getFullYear() - birth.getFullYear();
+        const m = today.getMonth() - birth.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+            age--;
+        }
+        return age;
+    }
+
+    function validateEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+
+    function validateForm() {
+        const $name = $('#nume');
+        const $bday = $('#data');
+        const $age = $('#varsta');
+        const $email = $('#email');
+        const $message = $('#Message');
+
+        let errors = "";
+
+
+        if (!/^[a-zA-Z ]+$/.test($name.val())) {
+            errors += "Numele nu poate conține cifre sau simboluri!\n";
+            $name.css('border-color', 'red');
+        } else {
+            $name.css('border-color', 'green');
+        }
+
+
+        if (validateDate($bday.val())) {
+            errors += "Data nașterii este în viitor!\n";
+            $bday.css('border-color', 'red');
+        } else {
+            $bday.css('border-color', 'green');
+        }
+
+
+        const expectedAge = calculateAge($bday.val());
+        if (parseInt($age.val()) !== expectedAge || !$age.val()) {
+            errors += `Vârsta introdusă este incorectă! (ar trebui să fie ${expectedAge})\n`;
+            $age.css('border-color', 'red');
+        } else {
+            $age.css('border-color', 'green');
+        }
+
+
+        if (!validateEmail($email.val())) {
+            errors += "Email invalid!\n";
+            $email.css('border-color', 'red');
+        } else {
+            $email.css('border-color', 'green');
+        }
+
+        if (errors.length > 0) {
+            alert(errors);
+            $message.text("Formularul conține erori!");
+        } else {
+            alert("Totul este corect!");
+            $message.text("");
+        }
+    }
+
+    $(document).ready(function () {
+        $('#submitBtn').on('click', validateForm);
+    });
+</script>
+</body>
+</html>

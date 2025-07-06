@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic-Tac-Toe</title>
+    <style>
+        table {
+            border: 1px solid black;
+        }
+        td {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<table id="board">
+    <tr><td cell="0"></td><td cell="1"></td><td cell="2"></td></tr>
+    <tr><td cell="3"></td><td cell="4"></td><td cell="5"></td></tr>
+    <tr><td cell="6"></td><td cell="7"></td><td cell="8"></td></tr>
+</table>
+
+<script>
+    let playerTurn = "";
+
+    function setBoard(board) {
+        $('#board td').each(function(index) {
+            $(this).html(board[index]);
+        });
+    }
+
+    function post(url, data, callback) {
+        $.post(url, { cellId: JSON.stringify(data) }, function(response) {
+            callback(response);
+        }).fail(function() {
+            console.log("POST error!");
+        });
+    }
+
+    function getJSON(url, callback) {
+        $.getJSON(url, function(data) {
+            callback(data);
+        }).fail(function() {
+            console.log("GET error!");
+        });
+    }
+
+    $(document).ready(function() {
+
+        getJSON("startGame.php", function(game) {
+            console.log(game);
+            playerTurn = game.player_turn;
+            setBoard(game.board);
+        });
+
+
+        $('#board td').on('click', function() {
+            const cellId = $(this).attr('cell');
+            if ($(this).html() !== "") return;
+
+            $(this).html("<span style='color:red'>" + playerTurn + "</span>");
+
+            post("playerMove.php", cellId, function(response) {
+                const game = JSON.parse(response);
+                playerTurn = game.player_turn;
+                setBoard(game.board);
+
+                if (game.status === "X") {
+                    alert("X wins");
+                } else if (game.status === "O") {
+                    alert("O wins");
+                } else if (game.status === "draw") {
+                    alert("draw");
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.mpp.Controller.BileteController">
+   <children>
+      <TableView fx:id="tabelS" prefHeight="164.0" prefWidth="547.0">
+        <columns>
+          <TableColumn fx:id="idS" prefWidth="49.0" text="id" />
+          <TableColumn fx:id="artistS" prefWidth="95.0" text="artist" />
+            <TableColumn fx:id="dataS" prefWidth="86.0" text="data" />
+            <TableColumn fx:id="locatieS" prefWidth="98.0" text="locatie" />
+            <TableColumn fx:id="avseatsS" prefWidth="111.0" text="locuri disponibile" />
+            <TableColumn fx:id="soseatsS" prefWidth="107.0" text="locuri vandute" />
+        </columns>
+      </TableView>
+      <DatePicker fx:id="dataField" layoutX="14.0" layoutY="188.0" />
+      <Button fx:id="filtrareButton" layoutX="194.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleFilter" text="Cauta spectacole" />
+      <TableView fx:id="tabelSF" layoutY="237.0" prefHeight="164.0" prefWidth="547.0">
+         <columns>
+            <TableColumn fx:id="artistSF" prefWidth="93.0" text="artist" />
+            <TableColumn fx:id="oraSF" prefWidth="120.0" text="ora" />
+            <TableColumn fx:id="locatieSF" prefWidth="109.0" text="locatie" />
+            <TableColumn fx:id="avseatsSF" prefWidth="118.0" text="locuri disponibile" />
+            <TableColumn fx:id="soseatsSF" prefWidth="105.0" text="locuri vandute" />
+         </columns>
+      </TableView>
+      <TextField fx:id="cumparatorField" layoutX="113.0" layoutY="412.0" />
+      <TextField fx:id="locuriField" layoutX="113.0" layoutY="448.0" />
+      <Label layoutX="21.0" layoutY="418.0" text="Cumparator" />
+      <Label layoutX="21.0" layoutY="452.0" text="Nr locuri dorite" />
+      <Button fx:id="biletButton" layoutX="300.0" layoutY="424.0" mnemonicParsing="false" onAction="#handleAddBilet" prefHeight="31.0" prefWidth="73.0" text="BiletNou" />
+      <Button layoutX="458.0" layoutY="427.0" mnemonicParsing="false" onAction="#handleLogOut" text="LogOut" />
+   </children>
+</Pane>

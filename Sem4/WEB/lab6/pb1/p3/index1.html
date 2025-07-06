@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Problema 3 - JavaScript Plain</title>
+</head>
+<body>
+
+<form id="carteForm">
+    <label for="idCarte">Carte:</label>
+    <select id="idCarte"></select><br><br>
+
+    Titlu: <input type="text" id="titluCarte"><br>
+    Autor: <input type="text" id="autorCarte"><br>
+    Gen: <input type="text" id="genCarte"><br><br>
+
+    <input type="submit" value="Save" id="saveButton">
+</form>
+
+<script>
+    let unsaved = false;
+    let oldId = null;
+
+    const idCarte = document.getElementById("idCarte");
+    const titluCarte = document.getElementById("titluCarte");
+    const autorCarte = document.getElementById("autorCarte");
+    const genCarte = document.getElementById("genCarte");
+    const saveButton = document.getElementById("saveButton");
+
+    function enableUnsavedChanges() {
+        unsaved = true;
+        saveButton.disabled = false;
+    }
+
+    function disableUnsavedChanges() {
+        unsaved = false;
+        saveButton.disabled = true;
+    }
+
+    titluCarte.addEventListener("input", enableUnsavedChanges);
+    autorCarte.addEventListener("input", enableUnsavedChanges);
+    genCarte.addEventListener("input", enableUnsavedChanges);
+
+
+    fetch("getIds.php")
+        .then(response => response.json())
+        .then(data => {
+            idCarte.innerHTML = "";
+            data.forEach(id => {
+                let option = document.createElement("option");
+                option.value = id;
+                option.textContent = id;
+                idCarte.appendChild(option);
+            });
+            idCarte.dispatchEvent(new Event("change"));
+        });
+
+    idCarte.addEventListener("change", function (event) {
+        if (unsaved) {
+            if (!confirm("Drop unsaved changes?")) {
+                idCarte.value = oldId;
+                return;
+            }
+        }
+
+        const id = idCarte.value;
+        oldId = id;
+
+        fetch("getCarte.php?id=" + encodeURIComponent(id))
+            .then(response => response.json())
+            .then(data => {
+                titluCarte.value = data[0];
+                autorCarte.value = data[1];
+                genCarte.value = data[2];
+                disableUnsavedChanges();
+            });
+    });
+
+    document.getElementById("carteForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const data = new FormData();
+        data.append("id", idCarte.value);
+        data.append("titlu", titluCarte.value);
+        data.append("autor", autorCarte.value);
+        data.append("gen", genCarte.value);
+
+        fetch("updateCarte.php", {
+            method: "POST",
+            body: data
+        })
+            .then(response => response.text())
+            .then(text => {
+                alert(text);
+                disableUnsavedChanges();
+            })
+            .catch(error => {
+                console.error("Eroare la salvare:", error);
+                alert("Salvarea a eșuat.");
+            });
+    });
+
+    disableUnsavedChanges();
+</script>
+
+</body>
+</html>

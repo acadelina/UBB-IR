@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tree-View AJAX cu jQuery</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li.dir {
+            cursor: pointer;
+            font-weight: bold;
+            user-select: none;
+        }
+        li.file {
+            cursor: pointer;
+            user-select: none;
+            font-weight: normal;
+        }
+        #dirTree {
+            width: 25%;
+            height: 90vh;
+            overflow-y: auto;
+            float: left;
+            border-right: 1px solid #ccc;
+            padding-right: 10px;
+        }
+        #viewer {
+            width: 70%;
+            height: 90vh;
+            overflow-y: auto;
+            float: left;
+            padding-left: 10px;
+            white-space: pre-wrap;
+            border-left: 1px solid #ccc;
+        }
+        img.file-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div id="dirTree">Loading...</div>
+<div id="viewer">Selectati un fișier pentru a vedea conținutul.</div>
+
+<script>
+    $(document).ready(function () {
+        const basePath = '.';
+
+        function createTree(items) {
+            const $ul = $('<ul></ul>');
+            items.forEach(item => {
+                const $li = $('<li></li>').text(item.name).attr('data-path', item.path);
+                if (item.type === 'dir') {
+                    $li.addClass('dir');
+                    $li.on('click', function (e) {
+                        e.stopPropagation();
+                        const $this = $(this);
+                        if ($this.data('loaded')) {
+                            const $subUl = $this.children('ul');
+                            if ($subUl.length) {
+                                $subUl.toggle();
+                            }
+                            return;
+                        }
+                        $.getJSON('dirs.php', { path: $this.data('path') })
+                            .done(children => {
+                                const $subTree = createTree(children);
+                                $this.append($subTree);
+                                $this.data('loaded', true);
+                            })
+                            .fail(() => alert('Eroare la incarcarea directorului'));
+                    });
+                } else if (item.type === 'file') {
+                    $li.addClass('file');
+                    $li.on('click', function (e) {
+                        e.stopPropagation();
+                        const ext = item.name.split('.').pop().toLowerCase();
+                        const $viewer = $('#viewer');
+                        if (['png', 'jpg', 'jpeg', 'gif', 'bmp', 'svg'].includes(ext)) {
+                            $viewer.html(`<img src="content.php?file=${encodeURIComponent(item.path)}" class="file-image" />`);
+                        } else {
+                            $.get(`content.php?file=${encodeURIComponent(item.path)}`)
+                                .done(text => $viewer.text(text))
+                                .fail(() => $viewer.text('Eroare la încarcarea fisierului.'));
+                        }
+                    });
+                }
+                $ul.append($li);
+            });
+            return $ul;
+        }
+
+
+        $.getJSON('dirs.php', { path: basePath })
+            .done(items => {
+                $('#dirTree').empty().append(createTree(items));
+            })
+            .fail(() => alert('Eroare la incarcarea arborelui'));
+    });
+</script>
+
+</body>
+</html>

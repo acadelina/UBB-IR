@@ -1,0 +1,64 @@
+ul {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+
+}
+
+ul.dialog{
+  align-self: center;
+}
+
+ul li {
+  position: relative;
+  display: block;
+  left: 111px;
+  margin: 1em 0 3.3em;
+  padding: 15px;
+  min-width: 150px;
+  max-width: 60%;
+  min-height: 100px;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+ul li::before {
+  display: inline-flex;
+  vertical-align: middle;
+  position: absolute;
+  top: -25px;
+  left: -130px;
+  width: 120px;
+  height: 90px;
+  content: "";
+}
+
+ul li::after {
+  display: inline-flex;
+  vertical-align: middle;
+  position: absolute;
+  top: 25px;
+  left: -13px;
+  width: 30px;
+  height: 18px;
+  background-color: white;
+  box-shadow: -1px 1px 0 black;
+  transform: skew(-15deg, -15deg) rotate(45deg);
+  content: "";
+}
+
+
+ul.dialog li.alice:before {
+  background: url('img/Untitled.png') 0 0;
+  width: 120px;
+  height: 90px;
+
+}
+
+ul.dialog li.bob::before {
+  background: url('img/Untitled.png') 130px 0;
+  width: 120px;
+  height: 90px;
+}

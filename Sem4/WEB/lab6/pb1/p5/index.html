@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tree-View AJAX</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li.dir {
+            cursor: pointer;
+            font-weight: bold;
+            user-select: none;
+        }
+        li.file {
+            cursor: pointer;
+            user-select: none;
+            font-weight: normal;
+        }
+        #dirTree {
+            width: 25%;
+            height: 90vh;
+            overflow-y: auto;
+            float: left;
+            border-right: 1px solid #ccc;
+            padding-right: 10px;
+        }
+        #viewer {
+            width: 70%;
+            height: 90vh;
+            overflow-y: auto;
+            float: left;
+            padding-left: 10px;
+            white-space: pre-wrap;
+            border-left: 1px solid #ccc;
+        }
+        img.file-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div id="dirTree"></div>
+<div id="viewer">Selectați un fișier pentru a vedea conținutul.</div>
+
+<script>
+    const basePath = '.';
+
+    function getJSON(url) {
+        return fetch(url).then(response => {
+            if (!response.ok) throw new Error('Network error');
+            return response.json();
+        });
+    }
+
+    function getText(url) {
+        return fetch(url).then(response => {
+            if (!response.ok) throw new Error('Network error');
+            return response.text();
+        });
+    }
+
+    function createTree(items) {
+        const ul = document.createElement('ul');
+        for (const item of items) {
+            const li = document.createElement('li');
+            li.textContent = item.name;
+            li.dataset.path = item.path;
+
+            if (item.type === 'dir') {
+                li.classList.add('dir');
+                li.onclick = function (e) {
+                    e.stopPropagation();
+                    if (li.dataset.loaded) {
+                        // ascunde/afișează sublista
+                        const subUl = li.querySelector('ul');
+                        if (subUl) subUl.style.display = (subUl.style.display === 'none') ? 'block' : 'none';
+                        return;
+                    }
+                    getJSON(`dirs.php?path=${encodeURIComponent(item.path)}`)
+                        .then(children => {
+                            const subTree = createTree(children);
+                            li.appendChild(subTree);
+                            li.dataset.loaded = 'true';
+                        })
+                        .catch(err => alert('Eroare la încărcarea directorului'));
+                };
+            } else {
+                li.classList.add('file');
+                li.onclick = function (e) {
+                    e.stopPropagation();
+                    const ext = item.name.split('.').pop().toLowerCase();
+                    const viewer = document.getElementById('viewer');
+
+                    if (['png', 'jpg', 'jpeg', 'gif', 'bmp', 'svg'].includes(ext)) {
+                        viewer.innerHTML = `<img src="content.php?file=${encodeURIComponent(item.path)}" class="file-image">`;
+                    } else {
+                        getText(`content.php?file=${encodeURIComponent(item.path)}`)
+                            .then(text => {
+                                viewer.textContent = text;
+                            })
+                            .catch(err => {
+                                viewer.textContent = 'Eroare la încărcarea fișierului.';
+                            });
+                    }
+                };
+            }
+
+            ul.appendChild(li);
+        }
+        return ul;
+    }
+
+
+    getJSON(`dirs.php?path=${encodeURIComponent(basePath)}`)
+        .then(items => {
+            const tree = createTree(items);
+            document.getElementById('dirTree').appendChild(tree);
+        })
+        .catch(err => alert('Eroare la încărcarea arborelui'));
+</script>
+
+</body>
+</html>

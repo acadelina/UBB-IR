@@ -1,0 +1,155 @@
+.navlist {
+    position: relative;
+
+}
+
+.navlist li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    top: 0;
+    flex-direction: row;
+}
+
+#img1{
+    background: url("img/css-pr4.png") 0 100%;
+    width: 84px;
+    height: 84px;
+
+}
+
+#img2{
+    background: url("img/css-pr4.png") -84px 100%;
+    width: 84px;
+    height: 84px;
+    margin-left: 84px;
+}
+
+#img3{
+    background: url("img/css-pr4.png") calc(-84px * 2) 100%;
+    width: 84px;
+    height: 84px;
+   margin-left:calc(2*84px);
+}
+
+#img4{
+    background: url("img/css-pr4.png") calc(-84px * 3) 100%;
+    width: 84px;
+    height: 84px;
+  margin-left:calc(3*84px);
+}
+
+#img5{
+    background: url("img/css-pr4.png") calc(-84px * 4) 100%;
+    width: 84px;
+    height: 84px;
+  margin-left:calc(4*84px);
+}
+
+#img6{
+    background: url("img/css-pr4.png") calc(-84px * 5) 100%;
+    width: 84px;
+    height: 84px;
+  margin-left:calc(5*84px);
+}
+
+#img7{
+    background: url("img/css-pr4.png") calc(-84px * 6) 100%;
+    width: 84px;
+    height: 84px;
+  margin-left:calc(6*84px);
+}
+
+#img8{
+    background: url("img/css-pr4.png") calc(-84px * 7) 100%;
+    width: 84px;
+    height: 84px;
+  margin-left:calc(7*84px);
+}
+
+#img9{
+    background: url("img/css-pr4.png") calc(-84px * 8) 100%;
+    width: 84px;
+    height: 84px;
+  margin-left:calc(8*84px);
+}
+
+#img10{
+    background: url("img/css-pr4.png") calc(-84px * 9) 100%;
+    width: 84px;
+    height: 84px;
+  margin-left:calc(9*84px);
+}
+
+#img11{
+    background: url("img/css-pr4.png") calc(-84px * 10) 100%;
+    width: 84px;
+    height: 84px;
+  margin-left:calc(10*84px);
+}
+
+#img1:hover{
+    width: 84px;
+    height: 84px;
+    background: url("img/css-pr4.png") 0 0;
+}
+
+#img2:hover{
+    width: 84px;
+    height: 84px;
+    background: url("img/css-pr4.png") -84px 0;
+}
+
+#img3:hover{
+    width: 84px;
+    height: 84px;
+    background: url("img/css-pr4.png") calc(-84px * 2) 0;
+}
+
+#img4:hover{
+    width: 84px;
+    height: 84px;
+    background: url("img/css-pr4.png") calc(-84px * 3) 0;
+}
+
+#img5:hover{
+    width: 84px;
+    height: 84px;
+    background: url("img/css-pr4.png") calc(-84px * 4) 0;
+}
+
+#img6:hover{
+    width: 84px;
+    height: 84px;
+    background: url("img/css-pr4.png") calc(-84px * 5) 0;
+}
+
+#img7:hover{
+    width: 84px;
+    height: 84px;
+    background: url("img/css-pr4.png") calc(-84px * 6) 0;
+}
+
+#img8:hover{
+    width: 84px;
+    height: 84px;
+    background: url("img/css-pr4.png") calc(-84px * 7) 0;
+}
+
+#img9:hover{
+    width: 84px;
+    height: 84px;
+    background: url("img/css-pr4.png") calc(-84px * 8) 0;
+}
+
+#img10:hover{
+    width: 84px;
+    height: 84px;
+    background: url("img/css-pr4.png") calc(-84px * 9) 0;
+}
+
+#img11:hover{
+    width: 84px;
+    height: 84px;
+    background: url("img/css-pr4.png") calc(-84px * 10) 0;
+}

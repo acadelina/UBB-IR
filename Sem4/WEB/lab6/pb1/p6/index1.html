@@ -1,0 +1,91 @@
+<html>
+<head>
+    <style>
+        select, button {
+            margin: 5px 10px 15px 0;
+            padding: 4px 8px;
+            font-size: 14px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 700px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 6px 10px;
+            text-align: left;
+        }
+        th {
+            background-color: rgba(232, 127, 230, 0.22);
+            color: rgba(179, 46, 81, 0.86);
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+<Text>Manufacturer:</Text>
+<select id="Manufacturer">
+    <option></option>
+    <option>Lenovo</option>
+    <option>Dell</option>
+    <option>HP</option>
+    <option>Apple</option>
+</select>
+<Text>Cpu:</Text>
+<select id="Cpu">
+    <option></option>
+    <option>Intel</option>
+    <option>Apple</option>
+</select>
+<Text>RAM:</Text>
+<select id="RAM">
+    <option></option>
+    <option>8GB</option>
+    <option>16GB</option>
+</select>
+<button id="FilterBtn">Filter</button>
+<br/>
+
+<table id="Results"></table>
+
+<script>
+    $(document).ready(function(){
+        function buildTable(data){
+            var $table = $('#Results');
+            $table.empty();
+            $table.append('<tr><th>Manufacturer</th><th>Model</th><th>Cpu</th><th>Ram</th></tr>');
+            $.each(data, function(i, row){
+                $table.append('<tr><td>' + row[0] + '</td><td>' + row[1] + '</td><td>' + row[2] + '</td><td>' + row[3] + '</td></tr>');
+            });
+        }
+
+        function loadData(params) {
+            $.ajax({
+                url: 'devices.php',
+                data: params,
+                dataType: 'json',
+                success: function(data){
+                    buildTable(data);
+                }
+            });
+        }
+
+        loadData({});
+
+        $('#FilterBtn').click(function(){
+            var params = {
+                manu: $('#Manufacturer').val(),
+                cpu: $('#Cpu').val(),
+                ram: $('#RAM').val()
+            };
+            loadData(params);
+        });
+    });
+</script>
+</body>
+</html>

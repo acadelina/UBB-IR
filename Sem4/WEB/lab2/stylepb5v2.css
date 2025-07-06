@@ -1,0 +1,28 @@
+.container{
+  border:2px solid black;
+  display:grid;
+  width:530px;
+  padding-bottom: 25px;
+  background-color: yellow;
+}
+
+.item1{
+  background-color: yellow;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 20px;
+
+}
+
+
+.item1 img{
+  height:200px;
+  width:175px;
+
+}
+.item p{
+  margin-left: 20px;
+  align-self:center;
+}

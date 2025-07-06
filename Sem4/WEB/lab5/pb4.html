@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 4</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+            cursor: pointer;
+        }
+        table {
+            width: 500px;
+        }
+        .tableheader {
+            background-color: pink;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<table id="fruits">
+    <thead>
+    <tr>
+        <th data-type="string"><button class="tableheader">Fructe</button></th>
+        <th data-type="number"><button class="tableheader">Cantitate</button></th>
+        <th data-type="number"><button class="tableheader">Pret</button></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr><td>Mere</td><td>70</td><td>8</td></tr>
+    <tr><td>Pere</td><td>60</td><td>6</td></tr>
+    <tr><td>Banane</td><td>50</td><td>9</td></tr>
+    <tr><td>Afine</td><td>50</td><td>5</td></tr>
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+        let directions = [];
+
+        $("#fruits thead th").each(function (index) {
+            directions[index] = 'asc';
+
+            $(this).on("click", function () {
+                let type = $(this).data("type");
+                let rows = $("#fruits tbody tr").get();
+
+                rows.sort(function (a, b) {
+                    let A = $(a).children("td").eq(index).text();
+                    let B = $(b).children("td").eq(index).text();
+
+                    if (type === "number") {
+                        A = parseFloat(A);
+                        B = parseFloat(B);
+                    }
+
+                    if (A < B) return directions[index] === "asc" ? -1 : 1;
+                    if (A > B) return directions[index] === "asc" ? 1 : -1;
+                    return 0;
+                });
+
+
+                directions[index] = directions[index] === "asc" ? "desc" : "asc";
+
+
+                $.each(rows, function (i, row) {
+                    $("#fruits tbody").append(row);
+                });
+            });
+        });
+    });
+</script>
+
+</body>
+</html>

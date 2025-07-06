@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>Trenuri - jQuery AJAX</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+Plecari : <select id="plecari"></select><br>
+Sosiri:<br>
+<ul id="sosiri"></ul>
+
+<script>
+
+  $('#plecari').on('change', function() {
+    var option = $(this).val();
+
+    $.ajax({
+      url: 'getSosiri.php',
+      data: { plecare: option },
+      dataType: 'json',
+      success: function(orase) {
+        var $output = $('#sosiri');
+        $output.empty();
+        orase.forEach(function(oras) {
+          $output.append('<li>' + oras + '</li>');
+        });
+      }
+    });
+  });
+
+
+  $.ajax({
+    url: 'getPlecari.php',
+    dataType: 'json',
+    success: function(orase) {
+      var $sel = $('#plecari');
+      orase.forEach(function(oras) {
+        $sel.append('<option>' + oras + '</option>');
+      });
+      $sel.trigger('change');
+    }
+  });
+</script>
+
+</body>
+</html>

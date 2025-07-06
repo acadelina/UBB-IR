@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+package ubb.scs.mpp.Network;
+
+option java_package = "ubb.scs.mpp.Network.protobuf";
+option java_outer_classname = "BileteProtobufs";
+
+message Angajat {
+  int64 id = 1;
+  string username = 2;
+  string password = 3;
+  string mail = 4;
+}
+
+message Spectacol {
+  int64 id = 1;
+  string artist = 2;
+  string date = 3;
+  string location = 4;
+  int32 availableSeats = 5;
+  int32 soldSeats = 6;
+}
+
+message Bilet {
+  int64 id = 1;
+  string buyer = 2;
+  int32 seatsNumber = 3;
+  Spectacol spectacol = 4;
+}
+
+message Request {
+  enum Type {
+    BuyTicket = 0;
+    Login=1;
+    Logout=2;
+    GetShows = 3;
+    GetFShows=4;
+  }
+  Type type = 1;
+  Angajat angajat = 2;
+  Bilet bilet = 3;
+  string Data=4;
+}
+
+message TicketResponse {
+  enum Type {
+    Ok = 0;
+    NewTicket=1;
+    Error = 2;
+    ShowList=3;
+  }
+  Type type = 1;
+  string error = 2;
+  Bilet bilet = 3;
+  Angajat angajat=5;
+  repeated Spectacol shows = 4;
+  Spectacol spectacol=6;
+}
